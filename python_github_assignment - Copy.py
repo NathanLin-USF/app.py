@@ -1,14 +1,9 @@
-#Welcome Message
 print("Welcome to my Python program!")
-#Question
 doomscroll = input("How many hours did you doomscroll today?")
-#Convert to float and calculations
 doomscroll = float(doomscroll)
 weekly_doomscroll = doomscroll * 7
-#Printing weekly doomscroll times
 print(weekly_doomscroll)
 print(f"You are on track to doomscroll {weekly_doomscroll} hours this week.")
-#Handling Errors
 try:
     doomscroll = float(doomscroll)
 except ValueError:
