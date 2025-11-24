@@ -4,3 +4,8 @@ doomscroll = float(doomscroll)
 weekly_doomscroll = doomscroll * 7
 print(weekly_doomscroll)
 print(f"You are on track to doomscroll {weekly_doomscroll} hours this week.")
+try:
+    doomscroll = float(doomscroll)
+except ValueError:
+    print("Please enter a valid number.")
+    exit()
